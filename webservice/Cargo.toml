@@ -1,0 +1,16 @@
+[package]
+name = "webservice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.1", features = ["json"] }
+sqlx = { version = "0.5", features = ["sqlite", "runtime-tokio-native-tls", "uuid", "chrono"] }
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
+async-trait = "0.1.52"
+tokio = "*"
+serde = "*"
+serde_json = "*"
+serial_test = "0.6.0"

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="49cm" viewBox="515 5 426 979" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Hintergrund">
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 4; stroke: #000000" x="516" y="964" width="96" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 4; stroke: #000000" x="536" y="724" width="44" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 4; stroke: #000000" x="536" y="504" width="84" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 4; stroke: #000000" x="516" y="264" width="128" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 4; stroke: #000000" x="516" y="44" width="112" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="57.2875">
+      <tspan x="520" y="57.2875">let mut a: u32 = 1;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="77.2875">
+      <tspan x="520" y="77.2875">let b: &amp;mut u32 = &amp;a;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="840" y="40" width="80" height="140" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="17.2875">
+      <tspan x="880" y="17.2875">Stack</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="40" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="97.2875">
+      <tspan x="520" y="97.2875">{</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="157.287">
+      <tspan x="520" y="157.287">}</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="117.287">
+      <tspan x="540" y="117.287">let c: u32 = 3;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="137.287">
+      <tspan x="540" y="137.287">*b = c;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="54.4375">
+      <tspan x="880" y="54.4375">a</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="17.2875">
+      <tspan x="520" y="17.2875">Programm (gelber Kasten ausgeführter Teil)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="257.288">
+      <tspan x="520" y="257.288">let mut a: u32 = 1;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="277.288">
+      <tspan x="520" y="277.288">let b: &amp;mut u32 = &amp;a;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="840" y="240" width="80" height="140" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="260" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="297.288">
+      <tspan x="520" y="297.288">{</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="357.287">
+      <tspan x="520" y="357.287">}</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="317.287">
+      <tspan x="540" y="317.287">let c: u32 = 3;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="337.287">
+      <tspan x="540" y="337.287">*b = c;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="274.438">
+      <tspan x="880" y="274.438">b</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="457.287">
+      <tspan x="520" y="457.287">let mut a: u32 = 1;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="477.287">
+      <tspan x="520" y="477.287">let b: &amp;mut u32 = &amp;a;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="840" y="440" width="80" height="140" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="440" width="80" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="460" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="497.287">
+      <tspan x="520" y="497.287">{</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="557.288">
+      <tspan x="520" y="557.288">}</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="517.288">
+      <tspan x="540" y="517.288">let c: u32 = 3;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="537.288">
+      <tspan x="540" y="537.288">*b = c;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="454.437">
+      <tspan x="880" y="454.437">a</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="474.437">
+      <tspan x="880" y="474.437">b</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="480" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="494.437">
+      <tspan x="880" y="494.437">c</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="177.288">
+      <tspan x="520" y="177.288">println!("{}", *b);</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="377.287">
+      <tspan x="520" y="377.287">println!("{}", *b);</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="577.288">
+      <tspan x="520" y="577.288">println!("{}", *b);</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="657.287">
+      <tspan x="520" y="657.287">let mut a: u32 = 1;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="677.287">
+      <tspan x="520" y="677.287">let b: &amp;mut u32 = &amp;a;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="840" y="640" width="80" height="140" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="640" width="80" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="660" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="697.287">
+      <tspan x="520" y="697.287">{</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="757.287">
+      <tspan x="520" y="757.287">}</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="717.287">
+      <tspan x="540" y="717.287">let c: u32 = 3;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="737.287">
+      <tspan x="540" y="737.287">*b = c;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="654.438">
+      <tspan x="880" y="654.438">a &lt;= c</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="674.438">
+      <tspan x="880" y="674.438">b</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="680" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="694.438">
+      <tspan x="880" y="694.438">c</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="777.287">
+      <tspan x="520" y="777.287">println!("{}", *b);</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="857.287">
+      <tspan x="520" y="857.287">let mut a: u32 = 1;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="877.287">
+      <tspan x="520" y="877.287">let b: &amp;mut u32 = &amp;a;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="840" y="840" width="80" height="140" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="840" width="80" height="20" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="860" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="897.287">
+      <tspan x="520" y="897.287">{</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="957.287">
+      <tspan x="520" y="957.287">}</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="917.287">
+      <tspan x="540" y="917.287">let c: u32 = 3;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="540" y="937.287">
+      <tspan x="540" y="937.287">*b = c;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="854.438">
+      <tspan x="880" y="854.438">a</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="874.438">
+      <tspan x="880" y="874.438">b</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="520" y="977.287">
+      <tspan x="520" y="977.287">println!("{}", *b);</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="920" y1="270" x2="936" y2="270"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="936" y1="270" x2="936" y2="250"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="240" width="80" height="20" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Arial;font-style:normal;font-weight:normal" x="880" y="254.438">
+      <tspan x="880" y="254.438">a</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="936" y1="250" x2="929.736" y2="250"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="922.236,250 932.236,245 929.736,250 932.236,255 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="920" y1="470" x2="940" y2="470"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="470" x2="940" y2="450"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="450" x2="929.736" y2="450"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="922.236,450 932.236,445 929.736,450 932.236,455 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="920" y1="670" x2="940" y2="670"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="670" x2="940" y2="650"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="650" x2="929.736" y2="650"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="922.236,650 932.236,645 929.736,650 932.236,655 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="920" y1="870" x2="940" y2="870"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="870" x2="940" y2="850"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="940" y1="850" x2="929.736" y2="850"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="922.236,850 932.236,845 929.736,850 932.236,855 "/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+[book]
+authors = ["Alexander Böhm"]
+language = "de"
+multilingual = false
+src = "src"
+title = "Chemnitzer Linux Tage 2022 - Einfach mal rust machen"
+
+[output.html.playground]
+editable = true
