@@ -7,9 +7,10 @@
 
 ```rust,editable,should_panic
 # fn main() {
-    let owned = 1;
-    let next_owner = owned;
-    println!("owned = {}", owned);           // Schlägt fehl
+    let mut owned = 1;
+    let next_owner = &owned;
+    println!("owned = {}", owned);           // Leses ist Ok
+    owned = 2;                               // Schreiben schlägt fehl
     println!("next_owner = {}", next_owner); // next_owner ist der Besitzer
 # }
 ```

@@ -1,6 +1,6 @@
 [package]
 name = "workshop_clt2022"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Ein Workshop in Rust für die CLT2022"
 homepage = "https://aboehm.github.io/clt2022-einfach-mal-rust-machen/index.html"
